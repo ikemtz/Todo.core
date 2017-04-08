@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  todo.svc:
+    image: todo.svc
+    build:
+      context: ./ToDo.Svc
+      dockerfile: Dockerfile
